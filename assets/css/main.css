@@ -1308,6 +1308,7 @@ input, select, textarea {
 			}
 
 		#header .content {
+			background-color: rgba(27, 31, 34, 0.85);
 			border-style: solid;
 			border-color: #ffffff;
 			border-top-width: 1px;
@@ -1350,6 +1351,7 @@ input, select, textarea {
 			padding-left: 0;
 			border: solid 1px #ffffff;
 			border-radius: 4px;
+			background-color: rgba(27, 31, 34, 0.85);
 		}
 
 			#header nav ul li {
@@ -1371,10 +1373,13 @@ input, select, textarea {
 					letter-spacing: 0.2rem;
 					font-size: 0.8rem;
 					border-bottom: 0;
+					
 				}
+				
 
 					#header nav ul li a:hover {
 						background-color: rgba(255, 255, 255, 0.075);
+						text-decoration: line-through;
 					}
 
 					#header nav ul li a:active {
@@ -1391,6 +1396,8 @@ input, select, textarea {
 			height: 100%;
 			background: #ffffff;
 		}
+
+		
 
 		#header nav.use-middle ul li.is-middle {
 			border-left: 0;
