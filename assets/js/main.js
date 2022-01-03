@@ -437,10 +437,10 @@ var form = document.getElementById("form");
             'Accept': 'application/json'
         }
       }).then(response => {
-        status.innerHTML = "Talk to you soons!";
+        status.innerHTML = "Talk to you soon!";
         form.reset()
       }).catch(error => {
-        status.innerHTML = "Oops! There was a problem submitting your form"
+        status.innerHTML = "Oops! That didn't work! :/"
       });
     }
     form.addEventListener("submit", handleSubmit)
